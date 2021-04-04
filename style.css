@@ -287,7 +287,10 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50x;
     float: right;
     z-index: 1;
 }
@@ -672,6 +675,7 @@ p {
 
 .social {
     max-width: 400px;
+    padding-bottom: 20px;
     margin: auto auto auto auto;
 }
 
@@ -737,6 +741,8 @@ h4 {
 }
 
 .bgc-white {
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: #FFFFFF;
 }
 
@@ -749,12 +755,14 @@ h4 {
 }
 
 .tc-white {
-    color:#FFFFFF!important;
+   color: #FFFFFF !important;
 }
-
+.tc-white2{
+    color:#000000!important;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -815,7 +823,7 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        margin-right: 40px;
     }
     .nav-center.navbar .nav {
         max-width: 100%
