@@ -42,7 +42,7 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a link rel="prev" href="index.html">Page D'Accueil</a>
+						<a class="marg" link rel="prev" href="index.html">Page D'Accueil</a>
 					</li>
 				</ul>
 			</div>
@@ -77,25 +77,25 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label  id="fonts"for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" name="user_name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
+						<label id="fonts" for="e_mail">
+							 e-email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" name="user_mail" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label id="fonts" for="question">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="email" name="question" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label id="fonts" for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -131,7 +131,7 @@
 </footer>
 <!-- Footer - bloc-8 END -->
 
-</div>
+</main>
 <!-- Principal conteneur END -->
     
 

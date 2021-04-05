@@ -297,7 +297,7 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
+    margin-bottom: 38px;
     font-size: 16px;
 }
 
@@ -341,7 +341,7 @@ a:hover {
 }
 .bgphpoto2{
     position: absolute;
-    top: 80px;
+    top: 130px;
 }
 
 @media (min-width: 768px) {
@@ -489,7 +489,22 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
+    margin: 15px 0;
     box-shadow: none;
+    border: 2px solid #000;
+    display: block;
+    width: 500px;
+}
+.form-control:focus{
+    background-color: #F19151;
+}
+@media (max-width: 650px){
+    .form-control {
+        width: 300px;
+    }
+}
+#fonts{
+    font-weight: bold;
 }
 
 .scrollToTop {
@@ -772,6 +787,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000!important;
+    border-radius: 30px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -809,7 +825,7 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-@media (max-width: 1024px) {
+@ (max-width: 1media024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
