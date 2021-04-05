@@ -269,6 +269,9 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    width: 200x;
+    max-height: 40px;
+    object-fit: cover;
 }
 
 .navbar-brand img {
@@ -297,7 +300,6 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-bottom: 38px;
     font-size: 16px;
 }
 
@@ -334,6 +336,25 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.navbar-header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+@media (min-width: 768px) {
+    .navbar-btn2{
+     padding: 15px;
+    }
+    .navbar-btn{
+        text-decoration: none;
+        border-bottom: 2px solid #c2c2ab;
+    }
+    .navbar-btn:hover{
+        background-color:#c2c2ab !important;
+    }
+}
+
 .bgphpoto{
     width: 100%;
     height: 300px;
@@ -341,7 +362,7 @@ a:hover {
 }
 .bgphpoto2{
     position: absolute;
-    top: 130px;
+    top: 90px;
 }
 
 @media (min-width: 768px) {
@@ -969,6 +990,7 @@ h4 {
         float: none;
         width: 100%;
     }
+   
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
