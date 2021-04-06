@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
+    box-sizing: border-box;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -290,7 +291,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    width: 220px;
+    width: 320px;
     display: flex;
     justify-content: space-between;
     margin-right: 50x;
