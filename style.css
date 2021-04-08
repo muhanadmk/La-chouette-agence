@@ -52,7 +52,9 @@ a:hover {
 .bloc-md {
     padding: 50px;
 }
-
+.font1{
+    font-size: 16px;
+}
 .bloc-sm {
     padding: 20px 50px;
 }
