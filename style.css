@@ -102,6 +102,7 @@ a:hover {
 
 .d-bloc {
     color:#000;
+    background-color: #f19151;
 }
 
 .d-bloc button:hover {
@@ -802,13 +803,8 @@ h4 {
     background-color: #FFFFFF;
 }
 
-
-.bgc-atomic-tangerine {
-    background-color: #f19151;
-}
-
 .tc-white {
-   color: #000000 !important;
+   color: #FFFFFF !important;
 }
 .tc-white2{
     color:#000000!important;
@@ -853,9 +849,9 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
-/* .bg-presentation {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
-} */
+.bg-presentation {
+    background-image: url("img/image-de-presentation.jpg");
+}
 
 @media (max-width: 1024px) {
     .bloc {
