@@ -811,6 +811,9 @@ h4 {
     color: #000!important;
     border-radius: 30px;
 }
+.img-responsive{
+    margin: 0 auto;
+}
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
