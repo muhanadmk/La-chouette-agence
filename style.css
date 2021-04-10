@@ -75,7 +75,7 @@ a:hover {
     background-size: auto!important;
 }
 .bg-repeat {
-    background: repeat;
+    background: no-repeat;
 }
 
 .bg-t-edge {
@@ -102,7 +102,12 @@ a:hover {
 
 .d-bloc {
     color:#000;
-    background-color: #f19151;
+    background-image: url("img/image-de-presentation.jpg");
+    /* background: no-repeat;
+    height: 280px; */
+}
+.d-bloc2{
+    background-color: #F19151 !important;
 }
 
 .d-bloc button:hover {
@@ -811,7 +816,7 @@ h4 {
 }
 
 .tc-white {
-   color: #FFFFFF !important;
+   color: #ffffff !important;
 }
 .tc-white2{
     color:#000000!important;
